@@ -29,11 +29,10 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Install L9 and avoid a Naming conflict if you've already installed a
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
-
+" commite
 Plugin 'jiangmiao/auto-pairs'
 
 Plugin 'preservim/nerdtree', {'on': 'NERDTreeToggle' }
-
 Plugin 'ycm-core/YouCompleteMe'
 Plugin 'vim-airline/vim-airline' 
 "Строка состояний"
