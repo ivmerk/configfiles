@@ -1,11 +1,13 @@
 set number
 set expandtab
 set tabstop=5 
+set shiftwidth=5
 set nocompatible              " be iMproved, required
 set hlsearch
 set incsearch
 filetype off                  " required
-
+"
+" somethin
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -40,8 +42,12 @@ Plugin 'vim-misc'
 
 Plugin 'ryanoasis/vim-devicons'
 
-Plugin 'vim-colorscheme-switcher'
 
+Plugin 'vim-colorscheme-switcher'
+" Python, JavaScript, Go
+let g:kite_supported_languages = ['python', 'javascript', 'go']
+
+Plugin 'airblade/vim-gitgutter'
 Plugin 'flazz/vim-colorschemes'
 
 " All of your Plugins must be added before the following line
@@ -77,5 +83,5 @@ set encoding=utf-8
 set nocompatible 
 syntax enable 
 set guifont=Fura\ Code\ Light\ Nerd\ Font\ Complete:h16 
-
+set updatetime=100
 map <C-n> :NERDTreeToggle <CR>
