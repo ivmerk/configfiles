@@ -45,7 +45,7 @@ Plugin 'ryanoasis/vim-devicons'
 
 Plugin 'vim-colorscheme-switcher'
 " Python, JavaScript, Go
-let g:kite_supported_languages = ['python', 'javascript', 'go']
+let g:kite_supported_languages = ['python', 'javascript', 'go', 'c']
 
 Plugin 'airblade/vim-gitgutter'
 Plugin 'flazz/vim-colorschemes'
